@@ -111,37 +111,40 @@ export default function ShivajiLegacy({ language }: ShivajiLegacyProps) {
           ))}
         </div>
 
-        {/* Stats */}
-        <motion.div
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          viewport={{ once: true }}
-          transition={{ duration: 1 }}
-          className="grid grid-cols-2 md:grid-cols-4 gap-6 mt-16"
-        >
-          {[
-            { number: '26', label: language === 'mr' ? 'वर्षे राज्य' : 'Years of Rule' },
-            { number: '350+', label: language === 'mr' ? 'किल्ले' : 'Forts' },
-            { number: '1674', label: language === 'mr' ? 'राज्याभिषेक' : 'Coronation' },
-            { number: '∞', label: language === 'mr' ? 'प्रेरणा' : 'Inspiration' },
-          ].map((stat, index) => (
-            <motion.div
-              key={index}
-              initial={{ opacity: 0, scale: 0.5 }}
-              whileInView={{ opacity: 1, scale: 1 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.5, delay: index * 0.1 }}
-              className="text-center p-6 bg-heritage-gold/10 rounded-lg border border-heritage-gold/20"
-            >
-              <div className={`text-4xl md:text-5xl font-bold text-heritage-gold mb-2 ${language === 'mr' ? 'font-marathi' : 'font-english'}`}>
-                {stat.number}
-              </div>
-              <div className={`text-sandstone-300 text-sm ${language === 'mr' ? 'font-marathi' : 'font-english'}`}>
-                {stat.label}
-              </div>
-            </motion.div>
-          ))}
-        </motion.div>
+{/* Stats */}
+<motion.div
+  initial={{ opacity: 0 }}
+  whileInView={{ opacity: 1 }}
+  viewport={{ once: true }}
+  transition={{ duration: 1 }}
+  className="grid grid-cols-2 md:grid-cols-4 gap-6 mt-16"
+>
+  {[
+    { number: '५०', label: language === 'mr' ? 'वर्षे आयुष्य' : 'Years of Life', subtext: '१६३०-१६८०' },
+    { number: '३००+', label: language === 'mr' ? 'किल्ले' : 'Forts', subtext: language === 'mr' ? 'जिंकलेले' : 'Conquered' },
+    { number: '१६७४', label: language === 'mr' ? 'राज्याभिषेक' : 'Coronation', subtext: language === 'mr' ? 'रायगड' : 'At Raigad' },
+    { number: '∞', label: language === 'mr' ? 'प्रेरणा' : 'Inspiration', subtext: language === 'mr' ? 'चिरंतन' : 'Eternal' },
+  ].map((stat, index) => (
+    <motion.div
+      key={index}
+      initial={{ opacity: 0, scale: 0.5 }}
+      whileInView={{ opacity: 1, scale: 1 }}
+      viewport={{ once: true }}
+      transition={{ duration: 0.5, delay: index * 0.1 }}
+      className="text-center p-6 bg-heritage-gold/10 rounded-lg border border-heritage-gold/20"
+    >
+      <div className={`text-4xl md:text-5xl font-bold text-heritage-gold mb-2 ${language === 'mr' ? 'font-marathi' : 'font-english'}`}>
+        {stat.number}
+      </div>
+      <div className={`text-sandstone-300 text-sm font-semibold mb-1 ${language === 'mr' ? 'font-marathi' : 'font-english'}`}>
+        {stat.label}
+      </div>
+      <div className="text-sandstone-500 text-xs">
+        {stat.subtext}
+      </div>
+    </motion.div>
+  ))}
+</motion.div>
       </div>
     </div>
   );
