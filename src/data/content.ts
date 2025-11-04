@@ -40,11 +40,6 @@ export const content: Content = {
     titleEn: "Chhatrapati Shivaji Maharaj's Legacy",
     quotes: [
       {
-        mr: "स्वराज्य हा माझा जन्मसिद्ध हक्क आहे आणि तो मी मिळवीनच",
-        en: "Swarajya is my birthright and I shall have it",
-        author: "छत्रपती शिवाजी महाराज"
-      },
-      {
         mr: "गड झाला पाहिजे, गडावर भगवा फडकवायचा आहे",
         en: "The fort must be conquered, the saffron flag must fly on it",
         author: "छत्रपती शिवाजी महाराज"
