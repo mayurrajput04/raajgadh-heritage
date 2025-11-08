@@ -7,7 +7,6 @@ import ScrollProgress from '@/components/ScrollProgress';
 import LanguageToggle from '@/components/LanguageToggle';
 import Hero from '@/components/Hero';
 import HistoricalStory from '@/components/HistoricalStory';
-import ShivajiLegacy from '@/components/ShivajiLegacy';
 import Rajmudra from '@/components/Rajmudra';
 import ExploreFort from '@/components/ExploreFort';
 import Gallery from '@/components/Gallery';
@@ -25,7 +24,6 @@ export default function Home() {
         
         <Hero language={language} />
         <HistoricalStory language={language} />
-        <ShivajiLegacy language={language} />
         <Rajmudra language={language} />
         <ExploreFort language={language} />
         <Gallery language={language} />

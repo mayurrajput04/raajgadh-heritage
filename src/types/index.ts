@@ -29,11 +29,6 @@ export interface Content {
     titleEn: string;
     paragraphs: Array<{ mr: string; en: string }>;
   };
-  legacy: {
-    title: string;
-    titleEn: string;
-    quotes: Array<{ mr: string; en: string; author: string }>;
-  };
   explore: {
     title: string;
     titleEn: string;

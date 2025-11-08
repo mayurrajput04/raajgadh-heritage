@@ -28,12 +28,5 @@ export const timelineEvents: TimelineEvent[] = [
     titleEn: "Capital Shifted to Raigad",
     description: "राजधानी राजगडावरून रायगडावर हलवण्यात आली. रायगडावर ६ जून १६७४ रोजी शिवाजी महाराजांचा राज्याभिषेक झाला",
     descriptionEn: "Capital was shifted from Raajgadh to Raigad. Shivaji Maharaj's coronation took place at Raigad on June 6, 1674",
-  },
-  {
-    year: "१६८०",
-    title: "छत्रपतींचे निधन",
-    titleEn: "Passing of Chhatrapati",
-    description: "छत्रपती शिवाजी महाराजांचे ३ एप्रिल १६८० रोजी रायगडावर निधन झाले. त्यांची समाधी रायगडावर आहे",
-    descriptionEn: "Chhatrapati Shivaji Maharaj passed away on April 3, 1680 at Raigad. His Samadhi is at Raigad",
   }
 ];

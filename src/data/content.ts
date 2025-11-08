@@ -2,7 +2,7 @@ import { Content } from '@/types';
 
 export const content: Content = {
   hero: {
-    title: "राजगड – मराठा साम्राज्याचा पहिला राजधानी",
+    title: "राजगड – मराठा साम्राज्याची पहिली राजधानी",
     subtitle: "जिथे छत्रपती शिवाजी महाराजांनी स्वराज्याची पायाभरणी केली",
     titleEn: "Raajgadh – First Capital of Maratha Empire",
     subtitleEn: "Where Chhatrapati Shivaji Maharaj laid the foundation of Swarajya"
@@ -13,7 +13,7 @@ export const content: Content = {
     titleEn: "Historical Story",
     paragraphs: [
       {
-        mr: "राजगड हा १६४७ ते १६७४ पर्यंत मराठा साम्राज्याची राजधानी होता. छत्रपती शिवाजी महाराजांनी या किल्ल्यावरून २६ वर्षे राज्यकारभार चालवला.",
+        mr: "राजगड १६४७ ते १६७४ पर्यंत मराठा साम्राज्याची राजधानी होती. छत्रपती शिवाजी महाराजांनी या किल्ल्यावरून २६ वर्षे राज्यकारभार चालवला.",
         en: "Raajgadh served as the capital of the Maratha Empire from 1647 to 1674. Chhatrapati Shivaji Maharaj ruled from this fort for 26 years."
       },
       {
@@ -29,25 +29,8 @@ export const content: Content = {
         en: "In 1674, the capital was shifted to Raigad where Chhatrapati Shivaji Maharaj's formal coronation took place. However, Raajgadh remained the fort of his heart."
       },
       {
-        mr: "राजगडावर बालेकिल्ला, सुवेळा माची, पद्मावती मंदिर, संजीवनी माची आणि नेढे या महत्त्वाच्या ठिकाणे आहेत. प्रत्येक दगड मराठी स्वाभिमानाची साक्ष देतो.",
+        mr: "राजगडावर बालेकिल्ला, सुवेळा माची, पद्मावती मंदिर, संजीवनी माची आणि नेढे या महत्त्वाच्या ठिकाणे आहेत. प्रत्येक दगड मराठा अभिमानाची साक्ष देतो.",
         en: "Raajgadh has important locations like Balekilla, Suvela Machi, Padmavati Temple, Sanjivani Machi, and Nedhe. Every stone bears witness to Maratha pride."
-      }
-    ]
-  },
-  
-  legacy: {
-    title: "छत्रपती शिवाजी महाराजांचा वारसा",
-    titleEn: "Chhatrapati Shivaji Maharaj's Legacy",
-    quotes: [
-      {
-        mr: "गड झाला पाहिजे, गडावर भगवा फडकवायचा आहे",
-        en: "The fort must be conquered, the saffron flag must fly on it",
-        author: "छत्रपती शिवाजी महाराज"
-      },
-      {
-        mr: "याच जन्मी कर्तव्य आपुले । आपण ते सांभाळूनी चले । परमार्थ नाही दुजा भवी ॥",
-        en: "Our duty in this life, we must fulfill with care. There is no greater purpose than this",
-        author: "समर्थ रामदास स्वामी (शिवाजी महाराजांचे गुरु)"
       }
     ]
   },
